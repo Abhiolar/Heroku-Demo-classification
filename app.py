@@ -41,6 +41,7 @@ def predict():
     
     data_cat = transform_data[['month', 'loyalty_card', 'education', 'marital_status', 'region', 'gender']]
     data_cont = transform_data[non_normal].astype(float)
+    data_cont = data_cont.apply(lambda x: np.log(x + 1))
 
 
     
