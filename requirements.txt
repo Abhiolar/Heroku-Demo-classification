@@ -122,11 +122,6 @@ pluggy==0.13.1
 ply==3.11
 prometheus-client==0.7.1
 prompt-toolkit==3.0.4
-protobuf==3.11.4
-psutil==5.7.0
-ptyprocess==0.6.0
-py==1.8.1
-pytest-remotedata==0.3.2
 python-dateutil==2.8.1
 python-dotenv==0.10.3
 python-jsonrpc-server==0.3.4
